@@ -1,0 +1,163 @@
+{
+  "settings": [
+    {
+      "id": 1,
+      "label": "Screen",
+      "address": "0x0",
+      "mask": "0xFFFFFFFB",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Square pixels", "value": "0x0"},
+        {"label": "4:3", "value": "0x4"}
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Filter",
+      "address": "0x0",
+      "mask": "0xFFFFFFE7",
+      "type": "list",
+      "default": "0x8",
+      "items": [
+        {"label": "Integer", "value": "0x0"},
+        {"label": "Sharp bilinear", "value": "0x8"},
+        {"label": "Bilinear", "value": "0x10"}
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Flip Screen",
+      "address": "0x0",
+      "mask": "0xFFFFFFFE",
+      "type": "checkbox",
+      "value": "0x1",
+      "default": "0x0"
+    },
+    {
+      "id": 4,
+      "label": "Button Layout",
+      "address": "0x0",
+      "mask": "0xFFFFFF1F",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Default", "value": "0x0"},
+        {"label": "Type 1", "value": "0x20"},
+        {"label": "Type 2", "value": "0x40"},
+        {"label": "Type 3", "value": "0x60"},
+        {"label": "Japan 1", "value": "0x80"},
+        {"label": "Japan 2", "value": "0xA0"},
+        {"label": "Brain 1", "value": "0xC0"},
+        {"label": "Brain 2", "value": "0xE0"}
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Use DIP Overrides",
+      "address": "0x0",
+      "mask": "0xFFFFFEFF",
+      "type": "checkbox",
+      "value": "0x100",
+      "default": "0x0"
+    },
+    {
+      "id": 6,
+      "label": "Coinage (Rygar/Silkworm)",
+      "address": "0x4",
+      "mask": "0xFFFCFFFC",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Game default", "value": "0x0"},
+        {"label": "2 Coins/1 Credit", "value": "0x30001"},
+        {"label": "1 Coin/1 Credit", "value": "0x30000"},
+        {"label": "1 Coin/2 Credits", "value": "0x30002"},
+        {"label": "1 Coin/3 Credits", "value": "0x30003"}
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Lives (Rygar/Silkworm)",
+      "address": "0x4",
+      "mask": "0xFFCFFFCF",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Game default", "value": "0x0"},
+        {"label": "2", "value": "0x300030"},
+        {"label": "3", "value": "0x300000"},
+        {"label": "4", "value": "0x300010"},
+        {"label": "5", "value": "0x300020"}
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Lives (Gemini Wing)",
+      "address": "0x4",
+      "mask": "0xFCFFFCFF",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Game default", "value": "0x0"},
+        {"label": "2", "value": "0x3000300"},
+        {"label": "3", "value": "0x3000000"},
+        {"label": "4", "value": "0x3000100"},
+        {"label": "5", "value": "0x3000200"}
+      ]
+    },
+    {
+      "id": 9,
+      "label": "Continue (Silkworm)",
+      "address": "0x4",
+      "mask": "0x7FFF7FFF",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Game default", "value": "0x0"},
+        {"label": "No", "value": "0x80008000"},
+        {"label": "Yes", "value": "0x80000000"}
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Button 3 Trigger",
+      "address": "0x0",
+      "mask": "0xFFFFFDFF",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "L", "value": "0x0"},
+        {"label": "R", "value": "0x200"}
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Player",
+      "address": "0x0",
+      "mask": "0xFFFFF7FF",
+      "type": "list",
+      "default": "0x0",
+      "items": [
+        {"label": "Player 1", "value": "0x0"},
+        {"label": "Player 2", "value": "0x800"}
+      ]
+    },
+    {
+      "id": 12,
+      "label": "Tate Mode",
+      "address": "0x0",
+      "mask": "0xFFFFFBFF",
+      "type": "checkbox",
+      "value": "0x400",
+      "default": "0x0"
+    },
+    {
+      "id": 15,
+      "label": "Reset",
+      "address": "0x2000",
+      "type": "action",
+      "value": "0x1"
+    }
+  ]
+}

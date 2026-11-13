@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "id": 0,
+      "label": "Arcade ROM",
+      "extensions": [
+        "rom"
+      ],
+      "user_selected": true,
+      "optional": false,
+      "read_only": true,
+      "address": "0x30000000",
+      "max_size": "0x200000"
+    }
+  ]
+}
